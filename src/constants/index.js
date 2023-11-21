@@ -1,4 +1,4 @@
-import { decagon, rebothFinanceLogo } from "../assets/images";
+import { decagon, reboth } from "../assets/images";
 import {
     car,
     contact,
@@ -198,7 +198,7 @@ export const experiences = [
     {
         title: "Digital Consultant/Admin",
         company_name: "Reboth Finance",
-        icon: rebothFinanceLogo,
+        icon: reboth,
         iconBg: "#fbc3bc",
         date: "Jan 2021 - Feb 2022",
         points: [
