@@ -15,10 +15,9 @@ const Projects = () => {
       </h1>
 
       <p className='text-slate-500 mt-2 leading-relaxed'>
-        Many of these projects below are open source so if
-        you come across something that picks your interest, feel free to
-        explore the codebase and contribute your ideas for further enhancements.
-        Your collaboration is highly valued!
+        Below is a list of major projects that I have worked on.<br /> The two fintech applications are projects which I contributed to the team as a full stack developer.<br /> The other applications are solo projects that I built from scratch to deployment.<br /> 
+        Let's connect by clicking on my social handles at the footer icons at the bottom of this page. 🤝 <br />
+        You can also check out my github profile (icon) to view the project repositories.
       </p>
 
       <div className='flex flex-wrap my-20 gap-16'>

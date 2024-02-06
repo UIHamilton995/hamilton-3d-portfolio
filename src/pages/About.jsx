@@ -21,7 +21,7 @@ const About = () => {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software and BlockChain Engineer based in Nigeria, specializing in building financial applications and solutions that aid easy movement of funds across geographical barriers.
+          Software Engineer and BlockChain Enthusiast based in Nigeria, passionate about building financial applications and solutions that aid easy movement of funds across geographical barriers. I am that teammate with a perfect blend of diligence and humour😁.
         </p>
       </div>
 
@@ -48,8 +48,7 @@ const About = () => {
         <h3 className='subhead-text'>Work Experience.</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-            I've worked with several companies, leveling up my skills and
-            teaming up with smart people to create state of the art full stack softwares. Here's the rundown:
+          I have built and contributed to numerous projects, continuously enhancing my skills while partnering with talented individuals to develop cutting-edge full-stack software solutions. Here's a brief overview:
           </p>
         </div>
 

@@ -16,12 +16,8 @@ import tailwindcss from './tailwindcss.svg'
 import typescript from './typescript.svg'
 import linkedin from './linkedin.svg'
 import twitter from './twitter.svg'
-import car from './car.svg'
 import estate from './estate.svg'
-import pricewise from './pricewise.svg'
-import snapgram from './snapgram.svg'
 import summiz from './summiz.svg'
-import threads from './threads.svg'
 import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
@@ -37,6 +33,10 @@ import cryptoCurrency from './cryptoCurrency.png'
 import python from './python.png'
 import solidity from './solidity.png'
 import nodeJS from './nodeJS.png'
+import fiscal from './fiscal.png'
+import bag from './bag.png'
+import musicalNote from './musical-note.png'
+import money from './money.png'
 
 export {
     css,
@@ -57,12 +57,8 @@ export {
     typescript,
     linkedin,
     twitter,
-    car,
     estate,
-    pricewise,
-    snapgram,
     summiz,
-    threads,
     arrow,
     contact,
     soundon,
@@ -77,5 +73,9 @@ export {
     cryptoCurrency,
     python,
     solidity,
-    nodeJS
+    nodeJS,
+    fiscal,
+    bag,
+    musicalNote,
+    money
 }

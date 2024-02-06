@@ -1,6 +1,5 @@
-import { decagon, reboth } from "../assets/images";
+import { decagon, reboth, Ajo } from "../assets/images";
 import {
-    car,
     contact,
     css,
     estate,
@@ -15,14 +14,12 @@ import {
     mui,
     nextjs,
     nodejs,
-    pricewise,
+    fiscal,
     react,
     redux,
     sass,
-    snapgram,
     summiz,
     tailwindcss,
-    threads,
     typescript,
     blockchain,
     docker,
@@ -35,7 +32,10 @@ import {
     python,
     solidity,
     twitter,
-    nodeJS
+    nodeJS,
+    bag,
+    musicalNote,
+    money
 } from "../assets/icons";
 
 export const skills = [
@@ -181,26 +181,38 @@ export const experiences = [
         title: "Associate Software Engineer",
         company_name: "Decagon",
         icon: decagon,
-        iconBg: "#accbe1",
+        iconBg: "#82C4A5",
         date: "April 2023 - Present",
         points: [
+            "🤝 Participated in and moderated seminars that centred on Best Practices, Agile Methodologies, Clean / Scalable Code Architecture and The Strategy of User Centric Applications.",
+            "📊 I worked extensively at the backend to build RESTful APIs for our full-stack applications, using swagger documentation to create a visual detail of the endpoints and their parameters for the front-end teammates.", 
+            "🌟 I used Redux toolkit to manage states and integrate the endpoints (APIs).",
+            "🛠️ I implemented unit testing and advanced security measures for authentication and verification. Also did some frontend security features like using Joi for validation of input fields.",
+            "🔗 I also implemented rate limiting and content based load balancing to avoid overloading the target server for a faster, optimized and secure application.",
+            "🤖 I used SQL and NoSQL databases as need arose in different project  to secure my fetched data.",
+            "🌐 I containerize applications using Docker.",
+        ],
+    },
+    {
+        title: "Junior Technical Lead",
+        company_name: "Ajo Savings",
+        icon: Ajo,
+        iconBg: "#4362C1",
+        date: "September 2023 - November 2023",
+        points: [
             "🎯 I demystified the PRD(Product Requirement Document) to colleagues to ensure codes written are in sync with the user story.",
-            "🤝 As a leader of about 20 developers, I created a robust model for relating the backend to our Postgres database using Sequelize within 24 hours of the start of the project so that team members assigned to backend tasks for the first sprint could relate to the flow and build their endpoints accordingly and promptly. We are now using ElephantSQL as a cloud database for scalability in the production mode.", 
-            "🌟 I used Redux toolkit to manage states on the upcoming activities section on the dashboard of the app so that the data from the database via the server displays to show a user the upcoming contributions in the savings groups that he joined.",
-            "📊 I created a backend application that was able to make HTTP requests using axios, parsing HTML and JSON data formats and extracting the content of the URL or web pages requested using puppeteer.", 
-            "🛠️ I implemented security measures, using Joi for validation so I can stick to ethical scraping standards and not pry into sensitive data in the requested URL.",
-            "🔗 I also implemented rate limiting to avoid overloading the target server and getting blocked with the help of ExpressJS which was my Node development framework.",
-            "🤖 I used MongoDB as a database to secure my fetched data.",
-            "👔 For assertions and checking code’s reliability to successfully fetch and scrape, I used Jest for testing.",
-            "🌐 I containerized applications using Docker.",
+            "🤝 As a leader of about 15 developers, I created a robust model for relating the backend to our Postgres database using Sequelize within 3 days of the start of the project so that team members assigned to backend tasks for the first sprint could relate to the flow and build their endpoints accordingly and promptly. We are now using ElephantSQL as a cloud database for scalability in the production mode.", 
+            "🌟 I used Redux toolkit to manage states on the analytic features of the user dashboard so that the data from the database regularly refreshes and displays correctly.",
+            "🤖 I used Postgres and Sequelize as ORM for connecting to the database.",
+            "🚫 Had some issues and the management eventually discontinued with the project."
         ],
     },
     {
         title: "Digital Consultant/Admin",
         company_name: "Reboth Finance",
         icon: reboth,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        iconBg: "#B11919",
+        date: "August 2022 - February 2023",
         points: [
             "🤖 Software Administration: Oversaw the effective administration of software systems, ensuring optimal functionality and performance.",
             "📧 Email Marketing: Orchestrated email marketing campaigns, utilizing ConvertKit for engagement tracking and fostering client relationships.",
@@ -235,32 +247,32 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
-        theme: 'btn-back-red',
+        iconUrl: fiscal,
+        theme: 'btn-back-green',
         name: 'Ajo Savings App',
         description: 'Savings application with extensive dashboard features that tracks where and what you are doing with your finances. Join Savings groups and cash out when it gets to your turn.',
-        link: 'https://github.com/Ajo-Savings-Project',
+        link: 'https://ajo-savings.decagon.dev/',
     },
     {
-        iconUrl: threads,
-        theme: 'btn-back-green',
+        iconUrl: bag,
+        theme: 'btn-back-pink',
         name: 'Plutus Financial Investment App',
         description: 'A meeting point where investment companies meet investors. In this app you get to save and grow your money through our verified investment and stock enterprises.',
-        link: 'https://github.com/UIHamilton995/plutus-financial-app',
+        link: 'https://plutusbank.netlify.app/',
     },
     {
-        iconUrl: car,
+        iconUrl: money,
         theme: 'btn-back-blue',
         name: 'MiltonCryptoz',
         description: 'Crypto checker and analysis app for assessing market dynamics before making informed decisions on staking or purchasing. Uncover real-time insights and empower your crypto endeavors with precision and confidence!',
-        link: 'https://github.com/UIHamilton995/milton-cryptoz-analysis',
+        link: 'https://milton-cryptoz-analysis.vercel.app/',
     },
     {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Wokpa Music App',
-        description: 'Embark on an immersive auditory journey with the Wokpa Music App, where we strive to craft an extraordinary and exhilarating experience. Dive deep into the world of music and let the rhythm elevate your senses!',
-        link: 'https://github.com/UIHamilton995/wokpa-music-app',
+        iconUrl: musicalNote,
+        theme: 'btn-back-red',
+        name: 'Jamss Music App',
+        description: 'Embark on an immersive auditory journey with the Jamss Music App, where we strive to craft an extraordinary and exhilarating experience. Dive deep into the world of music and let the rhythm elevate your senses!',
+        link: 'https://jamss-music-app.vercel.app/',
     },
     {
         iconUrl: estate,
