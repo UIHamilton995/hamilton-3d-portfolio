@@ -178,11 +178,25 @@ export const skills = [
 
 export const experiences = [
     {
+        title: "Junior Technical Lead",
+        company_name: "Ajo Savings",
+        icon: Ajo,
+        iconBg: "#4362C1",
+        date: "September 2023 - February 2024",
+        points: [
+            "🎯 I demystified the PRD(Product Requirement Document) to colleagues to ensure codes written are in sync with the user story.",
+            "🤝 As a leader of about 15 developers, I created a robust model for relating the backend to our Postgres database using Sequelize within 3 days of the start of the project so that team members assigned to backend tasks for the first sprint could relate to the flow and build their endpoints accordingly and promptly. We are now using ElephantSQL as a cloud database for scalability in the production mode.", 
+            "🌟 I used Redux toolkit to manage states on the analytic features of the user dashboard so that the data from the database regularly refreshes and displays correctly.",
+            "🤖 I used Postgres and Sequelize as ORM for connecting to the database.",
+            "🚫 Had some issues and the management eventually discontinued with the project."
+        ],
+    },
+    {
         title: "Associate Software Engineer",
         company_name: "Decagon",
         icon: decagon,
         iconBg: "#82C4A5",
-        date: "April 2023 - Present",
+        date: "April 2023 - August 2023",
         points: [
             "🤝 Participated in and moderated seminars that centred on Best Practices, Agile Methodologies, Clean / Scalable Code Architecture and The Strategy of User Centric Applications.",
             "📊 I worked extensively at the backend to build RESTful APIs for our full-stack applications, using swagger documentation to create a visual detail of the endpoints and their parameters for the front-end teammates.", 
@@ -191,20 +205,6 @@ export const experiences = [
             "🔗 I also implemented rate limiting and content based load balancing to avoid overloading the target server for a faster, optimized and secure application.",
             "🤖 I used SQL and NoSQL databases as need arose in different project  to secure my fetched data.",
             "🌐 I containerize applications using Docker.",
-        ],
-    },
-    {
-        title: "Junior Technical Lead",
-        company_name: "Ajo Savings",
-        icon: Ajo,
-        iconBg: "#4362C1",
-        date: "September 2023 - November 2023",
-        points: [
-            "🎯 I demystified the PRD(Product Requirement Document) to colleagues to ensure codes written are in sync with the user story.",
-            "🤝 As a leader of about 15 developers, I created a robust model for relating the backend to our Postgres database using Sequelize within 3 days of the start of the project so that team members assigned to backend tasks for the first sprint could relate to the flow and build their endpoints accordingly and promptly. We are now using ElephantSQL as a cloud database for scalability in the production mode.", 
-            "🌟 I used Redux toolkit to manage states on the analytic features of the user dashboard so that the data from the database regularly refreshes and displays correctly.",
-            "🤖 I used Postgres and Sequelize as ORM for connecting to the database.",
-            "🚫 Had some issues and the management eventually discontinued with the project."
         ],
     },
     {
