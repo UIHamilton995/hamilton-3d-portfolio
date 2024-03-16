@@ -178,33 +178,33 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "Junior Technical Lead",
+        title: "Junior Technical Lead (Full Stack)",
         company_name: "Ajo Savings",
         icon: Ajo,
         iconBg: "#4362C1",
         date: "September 2023 - February 2024",
         points: [
-            "🎯 I demystified the PRD(Product Requirement Document) to colleagues to ensure codes written are in sync with the user story.",
-            "🤝 As a leader of about 15 developers, I created a robust model for relating the backend to our Postgres database using Sequelize within 3 days of the start of the project so that team members assigned to backend tasks for the first sprint could relate to the flow and build their endpoints accordingly and promptly. We are now using ElephantSQL as a cloud database for scalability in the production mode.", 
-            "🌟 I used Redux toolkit to manage states on the analytic features of the user dashboard so that the data from the database regularly refreshes and displays correctly.",
-            "🤖 I used Postgres and Sequelize as ORM for connecting to the database.",
-            "🚫 Had some issues and the management eventually discontinued with the project."
+            "🎯 Assisted the Product Manager to demystify the PRD (Product Requirement Document) to colleagues to ensure the backend logics and codes written are in sync with the user story.",
+            "🤝 As a leader of about 15 developers, I spearheaded the creation of a robust model for relating the backend to our database using Sequelize within 3 days of the start of the project so that teammates assigned to backend tasks for the first sprint could relate to the flow and build their endpoints accordingly and promptly.", 
+            "🌟 Used Redux toolkit to manage states on the analytic features of the user dashboard so that the data from the database regularly refreshes and displays correctly.",
+            "🤖 Used Redis for caching, Ngrok for demo urls during sprint review and SwaggerUI for documentation of APIs for seamless integration on the client side",
+            "🚫 Management eventually discontinued with the project."
         ],
     },
     {
-        title: "Associate Software Engineer",
+        title: "Software Engineer (Back End Heavy)",
         company_name: "Decagon",
         icon: decagon,
         iconBg: "#82C4A5",
         date: "April 2023 - August 2023",
         points: [
             "🤝 Participated in and moderated seminars that centred on Best Practices, Agile Methodologies, Clean / Scalable Code Architecture and The Strategy of User Centric Applications.",
-            "📊 I worked extensively at the backend to build RESTful APIs for our full-stack applications, using swagger documentation to create a visual detail of the endpoints and their parameters for the front-end teammates.", 
-            "🌟 I used Redux toolkit to manage states and integrate the endpoints (APIs).",
-            "🛠️ I implemented unit testing and advanced security measures for authentication and verification. Also did some frontend security features like using Joi for validation of input fields.",
-            "🔗 I also implemented rate limiting and content based load balancing to avoid overloading the target server for a faster, optimized and secure application.",
-            "🤖 I used SQL and NoSQL databases as need arose in different project  to secure my fetched data.",
-            "🌐 I containerize applications using Docker.",
+            "📊 Worked extensively at the backend to build RESTful APIs for our full-stack applications, using swagger documentation to create a visual detail of the endpoints and their parameters for the front-end teammates.", 
+            "🌟 Used Redux toolkit to manage states and integrate the endpoints (APIs).",
+            "🛠️ Implemented unit testing and advanced security measures for authentication and verification. Also did some frontend security features like using Joi for validation of input fields.",
+            "🔗 Implemented rate limiting and content based load balancing to avoid overloading the target server for a faster, optimized and secure application.",
+            "🤖 Used SQL and NoSQL databases as need arose in different projects.",
+            "🌐 I containerized applications using Docker.",
         ],
     },
     {
