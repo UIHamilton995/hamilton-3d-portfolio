@@ -37,6 +37,7 @@ import fiscal from './fiscal.png'
 import bag from './bag.png'
 import musicalNote from './musical-note.png'
 import money from './money.png'
+import AR from './AR.png'
 
 export {
     css,
@@ -77,5 +78,6 @@ export {
     fiscal,
     bag,
     musicalNote,
-    money
+    money,
+    AR
 }

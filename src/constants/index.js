@@ -1,4 +1,4 @@
-import { decagon, reboth, Ajo } from "../assets/images";
+import { decagon, reboth, Ajo, Wiizzkid } from "../assets/images";
 import {
     contact,
     css,
@@ -35,7 +35,8 @@ import {
     nodeJS,
     bag,
     musicalNote,
-    money
+    money,
+    AR
 } from "../assets/icons";
 
 export const skills = [
@@ -178,16 +179,28 @@ export const skills = [
 
 export const experiences = [
     {
+            title: "Full Stack Blockchain Engineer",
+            company_name: "LivingStone IT",
+            icon: Wiizzkid,
+            iconBg: "#00FFFF",
+            date: "March 2024 - Present",
+            points: [
+                "🌟 Study the code base in depth to understand the microservices design pattern, product flow, logics on both the server and client side, discover and notify teammates on necessary modifications and optimization.",
+                "🤖 Work single-handedly to implement Augmented Reality (AR) features to give users a more thrilling and interactive learning experience on the app.",
+                "🤝 Communicate effectively with all team members before, during and after sprint meetings."
+            ],
+    },
+    {
         title: "Junior Technical Lead (Full Stack)",
         company_name: "Ajo Savings",
         icon: Ajo,
         iconBg: "#4362C1",
-        date: "September 2023 - February 2024",
+        date: "November 2023 - March 2024",
         points: [
             "🎯 Assisted the Product Manager to demystify the PRD (Product Requirement Document) to colleagues to ensure the backend logics and codes written are in sync with the user story.",
             "🤝 As a leader of about 15 developers, I spearheaded the creation of a robust model for relating the backend to our database using Sequelize within 3 days of the start of the project so that teammates assigned to backend tasks for the first sprint could relate to the flow and build their endpoints accordingly and promptly.", 
             "🌟 Used Redux toolkit to manage states on the analytic features of the user dashboard so that the data from the database regularly refreshes and displays correctly.",
-            "🤖 Used Redis for caching, Ngrok for demo urls during sprint review and SwaggerUI for documentation of APIs for seamless integration on the client side",
+            "🤖 Used Redis for caching, Ngrok for demo urls during sprint review and SwaggerUI for documentation of APIs for seamless integration on the client side.",
             "🚫 Management eventually discontinued with the project."
         ],
     },
@@ -196,7 +209,7 @@ export const experiences = [
         company_name: "Decagon",
         icon: decagon,
         iconBg: "#82C4A5",
-        date: "April 2023 - August 2023",
+        date: "April 2023 - November 2023",
         points: [
             "🤝 Participated in and moderated seminars that centred on Best Practices, Agile Methodologies, Clean / Scalable Code Architecture and The Strategy of User Centric Applications.",
             "📊 Worked extensively at the backend to build RESTful APIs for our full-stack applications, using swagger documentation to create a visual detail of the endpoints and their parameters for the front-end teammates.", 
@@ -247,6 +260,20 @@ export const socialLinks = [
 
 export const projects = [
     {
+        iconUrl: AR,
+        theme: 'btn-back-red',
+        name: 'Wiizzkid App',
+        description: 'The next big Learn to Earn (L2E) Eduverse! LivingStone IT is dedicated to ensuring that a standard educational system is created on the metaverse. Purchase $STONE tokens directly using USDT or ETH on Wiizzkid App.',
+        link: 'https://www.wiizzkid-ico.com/',
+    },
+    {
+        iconUrl: money,
+        theme: 'btn-back-blue',
+        name: 'MiltonCryptoz',
+        description: 'Crypto checker and analysis app for assessing market dynamics before making informed decisions on staking or purchasing. Uncover real-time insights and empower your crypto endeavors with precision and confidence!',
+        link: 'https://milton-cryptoz-analysis.vercel.app/',
+    },
+    {
         iconUrl: fiscal,
         theme: 'btn-back-green',
         name: 'Ajo Savings App',
@@ -261,20 +288,6 @@ export const projects = [
         link: 'https://plutusbank.netlify.app/',
     },
     {
-        iconUrl: money,
-        theme: 'btn-back-blue',
-        name: 'MiltonCryptoz',
-        description: 'Crypto checker and analysis app for assessing market dynamics before making informed decisions on staking or purchasing. Uncover real-time insights and empower your crypto endeavors with precision and confidence!',
-        link: 'https://milton-cryptoz-analysis.vercel.app/',
-    },
-    {
-        iconUrl: musicalNote,
-        theme: 'btn-back-red',
-        name: 'Jamss Music App',
-        description: 'Embark on an immersive auditory journey with the Jamss Music App, where we strive to craft an extraordinary and exhilarating experience. Dive deep into the world of music and let the rhythm elevate your senses!',
-        link: 'https://jamss-music-app.vercel.app/',
-    },
-    {
         iconUrl: estate,
         theme: 'btn-back-black',
         name: 'LandLawdz',
@@ -282,10 +295,10 @@ export const projects = [
         link: 'https://github.com/UIHamilton995/land-lawd-real-estate',
     },
     {
-        iconUrl: summiz,
+        iconUrl: musicalNote,
         theme: 'btn-back-yellow',
-        name: 'Weeb Zappier',
-        description: 'Backend application that makes HTTP requests using axios, parse html and json data; extracting url data with puppeteer.',
-        link: 'https://github.com/UIHamilton995/ethical-web-scraper',
+        name: 'Jamss Music App',
+        description: 'Embark on an immersive auditory journey. Sing, dance and dive deep into the world of music and let the rhythm elevate your senses!',
+        link: 'https://jamss-music-app.vercel.app/',
     }
 ];
