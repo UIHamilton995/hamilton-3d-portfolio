@@ -6,12 +6,10 @@ const HomeInfo = ({ currentStage }) => {
   if (currentStage === 1)
     return (
       <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5'>
-        Hi, I'm
+         Hi, I'm
         <span className='font-semibold mx-2 text-white'>Hamilton Ude</span>
-        👋
-        <br />
-        A Software Engineer from Nigeria 🇳🇬 <br />
-        Hold on your screen ⬅️ 👆  ➡️ and fly around my cloud home to get to know me better.
+        🙋🏽‍♂️, a Full Stack Software Engineer<br />
+        Hold on your screen ⬅️ 👆  ➡️ and fly around my Cloud Palace to get to know me better.
       </h1>
     );
 

@@ -4,6 +4,7 @@ import decagon from "./decagon_logo.png"
 import reboth from "./reboth_logo.png"
 import Ajo from './Ajo.png'
 import Wiizzkid from './wiizzkid-logo.png'
+import Leadway from './Leadway-Health-Hi-res-png.png'
 
 export {
     hero,
@@ -11,5 +12,6 @@ export {
     reboth,
     decagon,
     Ajo,
-    Wiizzkid
+    Wiizzkid,
+    Leadway
 }

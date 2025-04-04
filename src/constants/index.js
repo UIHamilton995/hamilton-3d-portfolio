@@ -1,4 +1,4 @@
-import { decagon, reboth, Ajo, Wiizzkid } from "../assets/images";
+import { decagon, reboth, Ajo, Wiizzkid, Leadway } from "../assets/images";
 import {
     contact,
     css,
@@ -38,6 +38,7 @@ import {
     money,
     AR
 } from "../assets/icons";
+import classNames from "classnames";
 
 export const skills = [
     {
@@ -179,16 +180,27 @@ export const skills = [
 
 export const experiences = [
     {
-            title: "Full Stack Blockchain Engineer",
-            company_name: "LivingStone IT",
-            icon: Wiizzkid,
-            iconBg: "#00FFFF",
-            date: "March 2024 - Present",
-            points: [
-                "🌟 Study the code base in depth to understand the microservices design pattern, product flow, logics on both the server and client side, discover and notify teammates on necessary modifications and optimization.",
-                "🤖 Work single-handedly to implement Augmented Reality (AR) features to give users a more thrilling and interactive learning experience on the app.",
-                "🤝 Communicate effectively with all team members before, during and after sprint meetings."
-            ],
+        title: "Full Stack Developer",
+        company_name: "Leadway Health",
+        icon: Leadway,
+        iconBg: "#7bb6bd",
+        date: "November 2024 - Present",
+        points: [
+            "🤖 Developed a sales module for the workflow tracking of the sales department. From client conversion to enrollee registration, with an interactive interface to view and study conversion data, renewal rates and percentage revenue increase.",
+            "🧮 Built a mobile responsive Benefits dashboard where enrollees can check their medical service benefits and how much of it they have used.",
+            "📊 Using ReactCharts, I built an email tracking system that tracks the data of sent and failed messages and logs them.",
+        ],
+    },
+    {
+        title: "Full Stack / AR Developer",
+        company_name: "LivingStone IT",
+        icon: Wiizzkid,
+        iconBg: "#00FFFF",
+        date: "March 2024 - December 2024",
+        points: [
+            "🤖 Worked singlehandedly to develop and deploy Augmented Reality (AR) applications using Unity3D with C# scripts for dynamic functionalities to give users a more thrilling and educating experience on the app.",
+            "🌟 Optimised the front end, updating deprecated dependencies and refactoring updated APIs integrated therein."
+        ],
     },
     {
         title: "Junior Technical Lead (Full Stack)",
@@ -198,10 +210,9 @@ export const experiences = [
         date: "November 2023 - March 2024",
         points: [
             "🎯 Assisted the Product Manager to demystify the PRD (Product Requirement Document) to colleagues to ensure the backend logics and codes written are in sync with the user story.",
-            "🤝 As a leader of about 15 developers, I spearheaded the creation of a robust model for relating the backend to our database using Sequelize within 3 days of the start of the project so that teammates assigned to backend tasks for the first sprint could relate to the flow and build their endpoints accordingly and promptly.", 
+            "🤝 Took charge of the creation of a robust model for relating the backend to our database using Sequelize within 3 days of the start of the project so that teammates assigned to backend tasks for the first sprint could relate to the flow and build their endpoints accordingly and promptly.", 
             "🌟 Used Redux toolkit to manage states on the analytic features of the user dashboard so that the data from the database regularly refreshes and displays correctly.",
             "🤖 Used Redis for caching, Ngrok for demo urls during sprint review and SwaggerUI for documentation of APIs for seamless integration on the client side.",
-            "🚫 Management eventually discontinued with the project."
         ],
     },
     {
@@ -214,7 +225,6 @@ export const experiences = [
             "🤝 Participated in and moderated seminars that centred on Best Practices, Agile Methodologies, Clean / Scalable Code Architecture and The Strategy of User Centric Applications.",
             "📊 Worked extensively at the backend to build RESTful APIs for our full-stack applications, using swagger documentation to create a visual detail of the endpoints and their parameters for the front-end teammates.", 
             "🌟 Used Redux toolkit to manage states and integrate the endpoints (APIs).",
-            "🛠️ Implemented unit testing and advanced security measures for authentication and verification. Also did some frontend security features like using Joi for validation of input fields.",
             "🔗 Implemented rate limiting and content based load balancing to avoid overloading the target server for a faster, optimized and secure application.",
             "🤖 Used SQL and NoSQL databases as need arose in different projects.",
             "🌐 I containerized applications using Docker.",
@@ -264,14 +274,14 @@ export const projects = [
         theme: 'btn-back-red',
         name: 'Wiizzkid App',
         description: 'The next big Learn to Earn (L2E) Eduverse! LivingStone IT is dedicated to ensuring that a standard educational system is created on the metaverse. Purchase $STONE tokens directly using USDT or ETH on Wiizzkid App.',
-        link: 'https://www.wiizzkid-ico.com/',
+        link: 'https://www.wiizzkid.com//',
     },
     {
         iconUrl: money,
         theme: 'btn-back-blue',
-        name: 'MiltonCryptoz',
-        description: 'Crypto checker and analysis app for assessing market dynamics before making informed decisions on staking or purchasing. Uncover real-time insights and empower your crypto endeavors with precision and confidence!',
-        link: 'https://milton-cryptoz-analysis.vercel.app/',
+        name: 'CryptoMania-Widget',
+        description: 'Mobile responsive crypto checker and widget for assessing market dynamics before making informed decisions on staking or purchasing. Uncover real-time insights and empower your crypto endeavors with precision and confidence!',
+        link: 'https://cryptomania-widget.vercel.app/',
     },
     {
         iconUrl: fiscal,

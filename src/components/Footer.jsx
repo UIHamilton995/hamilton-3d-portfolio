@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
-
 import { socialLinks } from "../constants";
+
+function getCurrentYear() {
+  return new Date().getFullYear();
+}
 
 const Footer = () => {
   return (
@@ -9,7 +12,7 @@ const Footer = () => {
 
       <div className='footer-container'>
         <p>
-          © 2024 <strong>Hamilton (Ikedi) Ude</strong>. All rights reserved.
+          © {getCurrentYear()} <strong>Hamilton (Ikedi) Ude</strong>. All rights reserved.
         </p>
 
         <div className='flex gap-3 justify-center items-center'>
